@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background: #2E3239;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: 100px 0;
+}
+
+
+#title{
+    color: white;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.baseIcone{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    font-size: 80px; 
+    text-align: center;
+    padding: 35px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out .4s;
+}
+
+#facebook{
+    background: #4267B2;
+}
+
+#twitter{
+    background: #1da1f2;
+}
+
+#instagram{
+    background: linear-gradient(142deg, rgba(131,58,180,1) 15%, rgba(253,29,29,1) 54%, rgb(252, 203, 69) 100%);
+}
+
+.active {
+    border-radius: 30px; 
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+}
+
+.social-name {
+    margin-top: 10px; 
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 0; /* Cache le texte par défaut */
+    transition: ease-in-out .4s; 
+}
+
+.active .social-name {
+    opacity: 1; /* Affiche le texte quand actif */
+}
