@@ -3,6 +3,7 @@
 
 <br>
 
+
 ### Objectifs : ###
 ***Le background est gris et trois icônes sont présentes :***
 
@@ -14,6 +15,12 @@
         <li>une ombre apparaît derrière l’icône.</li>
       </ul></ul>
 → Lorsque l’on reclique sur une icône, le background redevient gris et l’icône reprend son aspect d’origine.
+
+<br>
+
+### ⚙️ Langages utilisés ⚙️ ###
+
+<img src="https://skillicons.dev/icons?i=html,css,js,github"/>
 
 <br>
 
